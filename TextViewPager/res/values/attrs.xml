@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 Paul Burke
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <attr name="textViewPagerStyle" format="reference" />
+    <attr name="scrollPageIndicatorStyle" format="reference" />
+
+    <declare-styleable name="TextViewPager">
+        <!-- The layout to use for the TextViews -->
+        <attr name="textViewLayout" format="reference" />
+        <!-- The text to page -->
+        <attr name="android:text" />
+    </declare-styleable>
+    
+    <declare-styleable name="TextViewPagerIndicator">
+        <!-- Whether or not the selected indicator fades. -->
+        <attr name="fades" format="boolean" />
+        <!-- Length of the delay to fade the indicator. -->
+        <attr name="fadeDelay" format="integer" />
+        <!-- Length of the indicator fade to transparent. -->
+        <attr name="fadeLength" format="integer" />
+        <!-- Color of the selected line that represents the current page. -->
+	    <attr name="selectedColor" format="color" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+</resources>
